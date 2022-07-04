@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+.huge{
+  font-size: 90px;
+  background-color: transparent;
+  border: none;
+}
