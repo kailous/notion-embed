@@ -5,7 +5,7 @@ export default function Button() {
   const router = useRouter();
   const { namespace, id } = router.query;
 
-  return <>
+  return <div id="likethis">
     <h4 id={id}>Do you like {id}?</h4>
     <LikeButton
         id={id}
@@ -28,6 +28,6 @@ export default function Button() {
           </>
       )}
     </LikeButton>
-  </>;
+  </div>;
 
 }
