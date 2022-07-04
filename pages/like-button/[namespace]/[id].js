@@ -20,7 +20,7 @@ export default function Button() {
           isCounterVisible
         }) => (
           <>
-            <button className={huge} onClick={handlePress} disabled={isLoading}>
+            <button class="huge" onClick={handlePress} disabled={isLoading}>
               🍕
             </button>
             {isCounterVisible && <div>Total: {totalLikes}</div>}
