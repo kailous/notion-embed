@@ -5,7 +5,7 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <p className={styles.description}>
-          This is a Notion Lyket embed widget. Check how to add this to your
+          ceshi2 This is a Notion Lyket embed widget. Check how to add this to your
           Notion project{" "}
           <a href="https://github.com/lyket-dev/notion-embed">here</a>
         </p>
