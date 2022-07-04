@@ -6,10 +6,10 @@ export default function Button() {
   const { namespace, id } = router.query;
 
   return <>
-    <h4 id="Do you like pizza?">Do you like pizza?</h4>
+    <h4 id={id}>Do you like {id}?</h4>
     <LikeButton
-        id="do-you-like-pizza"
-        namespace="faq"
+        id={id}
+        namespace={namespace}
         hideCounterIfLessThan={1}
     >
       {({
@@ -24,7 +24,7 @@ export default function Button() {
               🍕
             </button>
             {isCounterVisible && <div>Total: {totalLikes}</div>}
-            {userLiked && <div>Great! I like pizza as well!</div>}
+            {userLiked && <div>Great! I like {id} as well!</div>}
           </>
       )}
     </LikeButton>
