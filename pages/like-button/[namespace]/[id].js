@@ -5,6 +5,6 @@ export default function Button() {
   const router = useRouter();
   const { namespace, id } = router.query;
 
-  return <h4>hello!</h4><LikeButton namespace={namespace} id={id} />;
+  return <><h4>hello!</h4><LikeButton namespace={namespace} id={id} /></>;
 
 }
