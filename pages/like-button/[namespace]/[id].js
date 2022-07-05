@@ -19,13 +19,13 @@ export default function Button() {
           isLoading,
           isCounterVisible
         }) => (
-          <>
+          <div id="Button">
             <button class="huge" onClick={handlePress} disabled={isLoading}>
               🍕
             </button>
             {isCounterVisible && <div>Total: {totalLikes}</div>}
             {userLiked && <div>Great! I like {id} as well!</div>}
-          </>
+          </div>
       )}
     </LikeButton>
   </div>;
