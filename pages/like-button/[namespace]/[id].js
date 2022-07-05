@@ -23,14 +23,15 @@ export default function Button() {
       {({
           handlePress,
           userLiked,
-          isLoading,
+          isLoading
         }) => (
           <div id="anniu">
             <button class="huge" onClick={handlePress} disabled={isLoading}>
               👍
             </button>
             <ul>
-              {userLiked && <li>太棒了我也喜欢</li><li>{id}</li>}
+              {userLiked && <li>太棒了我也喜欢</li>}
+              {<li>{id}</li>}
             </ul>
           </div>
       )}
