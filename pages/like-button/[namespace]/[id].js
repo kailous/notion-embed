@@ -6,15 +6,6 @@ export default function Button() {
   const { namespace, id } = router.query;
 
   return <div id="likethis">
-    <div id="title">
-      <h4>你喜欢这篇文章吗</h4>
-      {({
-          totalLikes,
-          isCounterVisible
-      }) => (
-      <h4>{isCounterVisible && <span>有{totalLikes}人喜欢</span>} {namespace} <span>|</span> {id}</h4>
-      )}
-    </div>
     <LikeButton
         id={id}
         namespace={namespace}
@@ -23,9 +14,15 @@ export default function Button() {
       {({
           handlePress,
           userLiked,
-          isLoading
+          isLoading,
+          totalLikes,
+          isCounterVisible
         }) => (
           <div id="anniu">
+            <div id="title">
+              <h4>你喜欢这篇文章吗</h4>
+              <h4>{isCounterVisible && <span>有{totalLikes}人喜欢</span>} {namespace} <span>|</span> {id}</h4>
+            </div>
             <button class="huge" onClick={handlePress} disabled={isLoading}>
               👍
             </button>
