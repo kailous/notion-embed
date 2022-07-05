@@ -54,13 +54,10 @@ button {
     width: 100px;
     min-width: 100px;
     height: 100px;
-    line-height: 0px;
+    line-height: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
     margin:0 10px;
 }
-
-
-
