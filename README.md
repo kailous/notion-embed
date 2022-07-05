@@ -1,45 +1,45 @@
-This is a solution to embed [Lyket](https://lyket.dev/) to [`Notion`](https://notion.so).
+这是将 [Lyket](https://lyket.dev/) 嵌入到 [`Notion`](https://notion.so) 的解决方案。
 
-With this solution you can create Lyket buttons just by navigating to a path "/like-button/[button-namespace]/[button-id]"
+使用此解决方案，您只需导航到路径“/like-button/[button-namespace]/[button-id]”即可创建 Lyket 按钮
 
-Read more about what Lyket buttons need to be created [here](https://lyket.dev/docs/react)
+阅读更多关于需要创建什么 Lyket 按钮的信息 [这里](https://lyket.dev/docs/react)
 
-You can see a demo of what it looks like [like-button](https://lyket-notion-embed.vercel.app/like-button/all/my-button) | [updown-button](https://lyket-notion-embed.vercel.app/updown-button/all/my-button) | [clap-button](https://lyket-notion-embed.vercel.app/clap-button/all/my-button)
+您可以看到它的外观演示 [like-button](https://lyket-notion-embed.vercel.app/like-button/all/my-button) | [updown-button](https://lyket-notion-embed.vercel.app/updown-button/all/my-button) | [拍手按钮](https://lyket-notion-embed.vercel.app/clap-button/all/my-button)
 
-## Getting Started
+＃＃ 入门
 
-First, [register on Lyket](https://app.lyket.dev/signup) to get your personal API key.
+首先，[在 Lyket 上注册](https://app.lyket.dev/signup) 以获取您的个人 API 密钥。
 
-Then you need to fork this repo and deploy it to a serverless platform such as Vercel or Netlify.
+然后，您需要分叉此存储库并将其部署到无服务器平台，例如 Vercel 或 Netlify。
 
-If you want to experiment a little before deploying it, clone it and add your personal API key in NEXT_PUBLIC_LYKET_API_KEY to .env.local
+如果您想在部署之前进行一些试验，请克隆它并将 NEXT_PUBLIC_LYKET_API_KEY 中的个人 API 密钥添加到 .env.local
 
-## Deploy on Vercel
+## 在 Vercel 上部署
 
-The easiest way to deploy your Lyket widget app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), choose your repo and deploy.
+部署 Lyket 小部件应用程序的最简单方法是使用 [Vercel 平台](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-自述文件），选择您的存储库并部署。
 
-Remember to add your personal API key as environment variable in your Vercel app settings [/settings/environment-variables]. Use the name NEXT_PUBLIC_LYKET_API_KEY.
+请记住在您的 Vercel 应用程序设置 [/settings/environment-variables] 中添加您的个人 API 密钥作为环境变量。使用名称 NEXT_PUBLIC_LYKET_API_KEY。
 
-Trigger a new deploy to apply the changes.
+触发新部署以应用更改。
 
-## See the buttons on Notion
+## 查看 Notion 上的按钮
 
-Now you can use the address of your deployed app to create Lyket buttons in an iframe or Notion.
+现在，您可以使用已部署应用程序的地址在 iframe 或 Notion 中创建 Lyket 按钮。
 
-For example:
+例如：
 
-- https://my-app/like-button/my-blog/my-post will create a like button with namespace my-blog and my-post as ID
-- https://my-app/clap-button/my-blog/my-post will create a clap button with namespace my-blog and my-post as ID
-- https://my-app/updown-button/my-blog/my-post will create a updown button with namespace my-blog and my-post as ID
+- https://my-app/like-button/my-blog/my-post 将创建一个以命名空间 my-blog 和 my-post 作为 ID 的点赞按钮
+- https://my-app/clap-button/my-blog/my-post 将创建一个以命名空间 my-blog 和 my-post 作为 ID 的拍手按钮
+- https://my-app/updown-button/my-blog/my-post 将创建一个带有命名空间 my-blog 和 my-post 作为 ID 的 updown 按钮
 
-To see the buttons on Notion simply copy the link in Notion and then choose _Create embed_ from the option list
+要查看 Notion 上的按钮，只需复制 Notion 中的链接，然后从选项列表中选择 _Create embed_
 
-## Customise buttons
+## 自定义按钮
 
-This repo contains the most basic version of Lyket, but Lyket gives a great choice of customisation!
-To learn more on how to customise your buttons, take a look at the following resources:
+这个 repo 包含 Lyket 的最基本版本，但 Lyket 提供了很好的定制选择！
+要了解有关如何自定义按钮的更多信息，请查看以下资源：
 
-- [Lyket React Documentation](https://lyket.dev/docs/react) - learn about all Lyket features.
-- [Create a like button](https://lyket.dev/blog/react-like-button) - Create a React like button.
-- [Create a clap button](https://lyket.dev/blog/react-clap-button) - Create a React clap button.
-- [Create a like-dislike button](https://lyket.dev/blog/react-like-dislike-button) - Create a React like-dislike button.
+- [Lyket React 文档](https://lyket.dev/docs/react) - 了解所有 Lyket 功能。
+- [创建一个赞按钮](https://lyket.dev/blog/react-like-button) - 创建一个 React 赞按钮。
+- [创建拍手按钮](https://lyket.dev/blog/react-clap-button) - 创建 React 拍手按钮。
+- [创建一个喜欢-不喜欢按钮](https://lyket.dev/blog/react-like-dislike-button) - 创建一个 React 喜欢-不喜欢按钮。
