@@ -12,12 +12,19 @@ export default function Button() {
         namespace={namespace}
         hideCounterIfLessThan={1}
     >
-      { => (
+      {({
+          handlePress,
+          totalLikes,
+          userLiked,
+          isLoading,
+          isCounterVisible
+        }) => (
           <div id="Button">
-            <button class="huge" >
+            <button class="huge" onClick={handlePress} disabled={isLoading}>
               🍕
             </button>
-            <div>Total: {totalLikes}</div>
+            {isCounterVisible && <div>Total: {totalLikes}</div>}
+            {userLiked && <div>Great! I like {id} as well!</div>}
           </div>
       )}
     </LikeButton>
