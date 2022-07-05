@@ -17,48 +17,54 @@ a {
 
 .huge {
     font-size: 80px;
-    background-color: transparent;
-    border: none;
+    background-color: #000;
+    border: 0;
     cursor: pointer;
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    line-height: 0px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
 }
 
 #likethis {
-    background-color: #f00;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+background-color: #f00;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+width: 100%;
 }
 
 #likethis #title {
-    width: 87%;
-    display: flex;
-    flex-direction: column;
-    line-height: 100%;
-    align-items: flex-end;
+width: 87%;
+display: flex;
+flex-direction: column;
+line-height: 100%;
+align-items: flex-end;
 }
 #title h4 {
-    margin:0;
+margin:0;
 }
 #title h4 span {
-    font-style: italic;
-    font-weight: initial;
+font-style: italic;
+font-weight: initial;
 }
 #anniu {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
 }
 
 #anniu ul {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+width: 100%;
+display: flex;
+flex-direction: column;
+list-style: none;
+margin: 0;
+padding: 0;
 }
