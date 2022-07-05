@@ -29,12 +29,12 @@ a {
   align-items: center;
   justify-content: center;
 }
-#Buttons {
+#anniu {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-#Buttons ul {
+#anniu ul {
   display: flex;
   flex-direction: column;
   list-style: none;

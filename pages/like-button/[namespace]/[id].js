@@ -19,7 +19,7 @@ export default function Button() {
           isLoading,
           isCounterVisible
         }) => (
-          <div id="Button">
+          <div id="anniu">
             <button class="huge" onClick={handlePress} disabled={isLoading}>
               👍
             </button>
