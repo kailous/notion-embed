@@ -33,7 +33,7 @@ a {
     width: 100%;
 }
 
-#likethis h4 {
+#likethis #title {
     width: 100%;
     display: flex;
     justify-content: flex-end;
