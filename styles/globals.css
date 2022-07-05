@@ -39,12 +39,11 @@ a {
     justify-content: flex-end;
 }
 
-}
 #anniu {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #anniu ul {
