@@ -36,9 +36,17 @@ a {
 #likethis #title {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    line-height: 100%;
+    align-items: flex-end;
 }
-
+#title h4 {
+    margin:0;
+}
+#title h4 span {
+    font-style: italic;
+    font-weight: initial;
+}
 #anniu {
   width: 100%;
   display: flex;

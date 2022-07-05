@@ -7,8 +7,8 @@ export default function Button() {
 
   return <div id="likethis">
     <div id="title">
-      <h4>你喜欢这篇文章</h4>
-      <h4>{namespace} <span>|</span> {id} 吗?</h4>
+      <h4>你喜欢这篇文章吗</h4>
+      <h4>{namespace} <span>|</span> {id}</h4>
     </div>
     <LikeButton
         id={id}
