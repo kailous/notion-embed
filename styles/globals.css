@@ -87,8 +87,8 @@ button {
     align-items: center;
     border-radius: 100px;
     margin: 0 60px;
-    transition: width 0.25s, min-width 0.25s, height 0.25s, background-color 0.25s;
-    -webkit-transition: width 0.25s, min-width 0.25s, height 0.25s, background-color 0.25s;
+    transition: width 0.25s, min-width 0.25s, height 0.25s, background 0.8s;
+    -webkit-transition: width 0.25s, min-width 0.25s, height 0.25s, background 0.8s;
 }
 
 button:hover {
@@ -96,4 +96,5 @@ button:hover {
     width: 100px;
     min-width: 100px;
     height: 100px;
+    margin:0 20px;
 }
