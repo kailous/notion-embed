@@ -25,6 +25,7 @@ a {
 
 #like div {
     width: 100%;
+    height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -85,8 +86,7 @@ button {
     justify-content: center;
     align-items: center;
     border-radius: 100px;
-    margin: 0 10px;
-    padding: 60px;
+    margin: 0 60px;
     transition: width 0.25s, min-width 0.25s, height 0.25s, background-color 0.25s;
     -webkit-transition: width 0.25s, min-width 0.25s, height 0.25s, background-color 0.25s;
 }
