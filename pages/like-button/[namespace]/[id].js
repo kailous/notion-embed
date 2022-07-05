@@ -18,17 +18,17 @@ export default function Button() {
           totalLikes,
           isCounterVisible
         }) => (
-          <div>
-            <ul>
+          <div id="anniu">
+            <ul id="title">
               <li>你喜欢这篇文章吗</li>
-              {isCounterVisible && <li><span>有{totalLikes}人喜欢</span> {namespace} <span>|</span> {id}</li>}
+              <li>{isCounterVisible && <span>有{totalLikes}人喜欢</span>} {namespace} <span>|</span> {id}</li>
             </ul>
             <button onClick={handlePress} disabled={isLoading}>
               👍
             </button>
             <ul>
               {userLiked && <li>太棒了我也喜欢</li>}
-              {userLiked && <li>{id} </li>}
+              {<li>{id}</li>}
             </ul>
           </div>
       )}
