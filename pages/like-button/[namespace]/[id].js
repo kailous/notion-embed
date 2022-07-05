@@ -28,7 +28,7 @@ export default function Button() {
             </button>
             <ul>
               {userLiked && <li>太棒了我也喜欢</li>}
-              {<li>{id}</li>}
+              <li>{id}</li>
             </ul>
           </div>
       )}
