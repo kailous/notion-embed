@@ -6,7 +6,7 @@ export default function Button() {
   const { namespace, id } = router.query;
 
   return <div id="likethis">
-    <h4 id={id}>Do you like<br/>{namespace} | {id}?</h4>
+    <h4 id={id}>你喜欢这篇文章<br/>{namespace} <span>|</span> {id} 吗?</h4>
     <LikeButton
         id={id}
         namespace={namespace}
@@ -24,8 +24,8 @@ export default function Button() {
               👍
             </button>
             <ul>
-            {isCounterVisible && <li>Total: {totalLikes}</li>}
-            {userLiked && <li>Great! I like {id} as well!</li>}
+            {isCounterVisible && <li>有{totalLikes}人喜欢</li>}
+            {userLiked && <li>太棒了我也喜欢{id}</li>}
             </ul>
           </div>
       )}
