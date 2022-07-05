@@ -22,7 +22,7 @@ a {
   display: flex;
   flex-direction: row;
 }
-.likethis {
+#likethis {
   background-color: #f00;
   display: flex;
   flex-direction: row;
