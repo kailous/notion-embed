@@ -18,8 +18,8 @@ export default function Button() {
           totalLikes,
           isCounterVisible
         }) => (
-          <div id="anniu">
-            <ul id="title">
+          <div>
+            <ul>
               <li>你喜欢这篇文章吗</li>
               <li>{isCounterVisible && <span>有{totalLikes}人喜欢</span>} {namespace} <span>|</span> {id}</li>
             </ul>
