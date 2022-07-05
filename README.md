@@ -1,12 +1,12 @@
 这是将 [Lyket](https://lyket.dev/) 嵌入到 [`Notion`](https://notion.so) 的解决方案。
 
-使用此解决方案，您只需导航到路径“/like-button/[button-namespace]/[button-id]”即可创建 Lyket 按钮
+使用此解决方案，您只需导航到路径 “ /like-button/ [button-namespace] / [button-id] ” 即可创建 Lyket 按钮
 
 阅读更多关于需要创建什么 Lyket 按钮的信息 [这里](https://lyket.dev/docs/react)
 
-您可以看到它的外观演示 [like-button](https://lyket-notion-embed.vercel.app/like-button/all/my-button) | [updown-button](https://lyket-notion-embed.vercel.app/updown-button/all/my-button) | [拍手按钮](https://lyket-notion-embed.vercel.app/clap-button/all/my-button)
+您可以看到它的外观演示 [喜欢按钮](https://lyket-notion-embed.vercel.app/like-button/all/my-button) | [上下按钮](https://lyket-notion-embed.vercel.app/updown-button/all/my-button) | [拍手按钮](https://lyket-notion-embed.vercel.app/clap-button/all/my-button)
 
-＃＃ 入门
+## 入门
 
 首先，[在 Lyket 上注册](https://app.lyket.dev/signup) 以获取您的个人 API 密钥。
 
@@ -16,7 +16,8 @@
 
 ## 在 Vercel 上部署
 
-部署 Lyket 小部件应用程序的最简单方法是使用 [Vercel 平台](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-自述文件），选择您的存储库并部署。
+部署 Lyket 小部件应用程序的最简单方法是使用
+[Vercel 平台](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-自述文件) ，选择您的存储库并部署。
 
 请记住在您的 Vercel 应用程序设置 [/settings/environment-variables] 中添加您的个人 API 密钥作为环境变量。使用名称 NEXT_PUBLIC_LYKET_API_KEY。
 
