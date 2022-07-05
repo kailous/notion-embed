@@ -14,8 +14,39 @@ a {
 * {
     box-sizing: border-box;
 }
-
-.huge {
+#like {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#like div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#like:first-child ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 100%;
+    align-items: flex-end;
+}
+ul span {
+    font-style: italic;
+    font-weight: initial;
+}
+button {
     font-size: 80px;
     background-color: #8F5CFD;
     border: 0;
@@ -31,41 +62,5 @@ a {
     margin:0 10px;
 }
 
-#likethis {
-/*background-color: #f00;*/
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-width: 100%;
-}
 
-#likethis #title {
-width: 87%;
-display: flex;
-flex-direction: column;
-line-height: 100%;
-align-items: flex-end;
-}
-#title h4 {
-margin:0;
-}
-#title h4 span {
-font-style: italic;
-font-weight: initial;
-}
-#anniu {
-width: 100%;
-display: flex;
-flex-direction: row;
-align-items: center;
-}
 
-#anniu ul {
-width: 100%;
-display: flex;
-flex-direction: column;
-list-style: none;
-margin: 0;
-padding: 0;
-}
