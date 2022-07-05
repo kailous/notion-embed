@@ -21,7 +21,7 @@ export default function Button() {
           <div>
             <ul>
               <li>你喜欢这篇文章吗</li>
-              <li>{isCounterVisible && <span>有{totalLikes}人喜欢</span>} {namespace} <span>|</span> {id}</li>
+              <li>有{isCounterVisible && <span>{totalLikes}</span>}人喜欢 {namespace} <span>|</span> {id}</li>
             </ul>
             <button onClick={handlePress} disabled={isLoading}>
               👍
