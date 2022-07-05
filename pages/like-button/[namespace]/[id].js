@@ -6,7 +6,7 @@ export default function Button() {
   const { namespace, id } = router.query;
 
   return <div id="likethis">
-    <h4 id={id}>Do you like {id}?</h4>
+    <h4 id={id}>Do you like<br/>{namespace} | {id}?</h4>
     <LikeButton
         id={id}
         namespace={namespace}
