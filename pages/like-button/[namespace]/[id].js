@@ -21,7 +21,7 @@ export default function Button() {
         }) => (
           <div id="Button">
             <button class="huge" onClick={handlePress} disabled={isLoading}>
-              🍕
+              👍
             </button>
             <ul>
             {isCounterVisible && <li>Total: {totalLikes}</li>}
