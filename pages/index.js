@@ -58,14 +58,5 @@ export default function Home() {
                 <a className={styles.github} href="https://github.com/kailous/notion-embed" target="_blank">Github</a>
             </footer>
         </div>
-        // <div className={styles.container}>
-        //   <main className={styles.main}>
-        //     <p className={styles.description}>
-        //         这是一个 Notion Lyket 嵌入小部件.
-        //         在<a href="https://github.com/kailous/notion-embed">此处</a>查看如何将其添加到您的 Notion 项目中{" "}
-        //         在<a href="https://app.lyket.dev/dashboard/like">此处</a>进入仪表盘查看按钮点击数据。
-        //     </p>
-        //   </main>
-        // </div>
     );
 }
