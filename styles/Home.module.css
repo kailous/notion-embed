@@ -142,24 +142,24 @@
 .box main line {
   font-size: 0;
 }
-h1 {
+.box h1 {
   font-size: 42px;
 }
 
-h4 {
+.box h4 {
   font-size: 22px;
 }
 
-*:after {
+.box *:after {
   line-height: 100%;
 }
 
-main div p {
+.box main div p {
   font-size: 14px;
   line-height: 120% !important;
 }
 
-header {
+.box header {
   padding: 45px 30px;
   height: 100%;
   display: flex;
@@ -169,37 +169,37 @@ header {
   gap: 40px;
 }
 
-header div {
+.box header div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-content: flex-start;
 }
 
-header div:nth-child(1) {
+.box header div:nth-child(1) {
   gap: 20px;
 }
 
-header div:nth-child(2) {
+.box header div:nth-child(2) {
   gap: 30px;
 }
 
-header h4 {
+.box header h4 {
   font-weight: normal;
   line-height: 120% !important;
 }
 
-logo:after {
+.box logo:after {
   content: url(../public/logo.svg);
   width: 560px;
   display: block;
 }
 
-footer img {
+.box footer img {
   width: 115px;
 }
 
-main {
+.box main {
   background-color: #FFF;
   display: flex;
   flex-direction: row;
@@ -211,12 +211,12 @@ main {
   min-height: 100px;
 }
 
-h1, h2, h3, h4, p, span {
+.box h1, .box h2, .box h3, .box h4, .box p, .box span {
   line-height: 100%;
   margin: 0;
 }
 
-main div {
+.box main div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -226,27 +226,27 @@ main div {
   gap: 20px;
 }
 
-main h4 {
+.box main h4 {
   display: flex;
   flex-direction: row;
 }
 
-main a {
+.box main a {
   color: #000;
   text-decoration: none;
 }
 
-main h4:after {
+.box main h4:after {
   content: url(../public/icon.svg);
   width: 12px;
   margin: -5px 0 0 5px;
 }
 
-line:after {
+.box line:after {
   content: url(../public/next.svg);
 }
 
-footer {
+.box footer {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -254,6 +254,6 @@ footer {
   gap: 10px;
 }
 
-main h4 a:hover, main div:hover > p {
+.box main h4 a:hover, .box main div:hover > p {
   color: #8F5CFD;
 }
