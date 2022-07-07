@@ -237,13 +237,13 @@
 }
 
 .box main h4:after {
-  content: url(../public/icon.svg);
+  content: url("../public/icon.svg");
   width: 12px;
   margin: -5px 0 0 5px;
 }
 
 .box line:after {
-  content: url(../public/next.svg);
+  content: url("../public/next.svg");
 }
 
 .box footer {
