@@ -46,8 +46,7 @@ export default function Home() {
             </div>
         </main>
         <footer>
-            <a href="https://github.com/kailous/notion-embed" target="_blank"><img alt=""
-                                                                                   src="../public/Github.svg"/></a>
+            <a href="https://github.com/kailous/notion-embed" target="_blank"><img alt="github" src="../public/Github.svg"/></a>
         </footer>
         </div>
     )
