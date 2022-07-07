@@ -136,10 +136,12 @@
   align-content: space-between;
 }
 
-logo, line {
+logo {
   font-size: 0;
 }
-
+line {
+  font-size: 0;
+}
 h1 {
   font-size: 42px;
 }
