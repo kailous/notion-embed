@@ -46,9 +46,9 @@ export default function Home() {
                     </div>
                 </div>
                 <line>｜</line>
-                <div>
+                <div className={styles.item}>
                     <h4><a href="https://app.lyket.dev/dashboard/like" target="_blank">仪表盘查看数据</a></h4>
-                    <div className={styles.item}>
+                    <div>
                         <p>监视点赞数据</p>
                         <p>实时获取最新反馈</p>
                     </div>
