@@ -10,7 +10,14 @@ body {
     justify-content: space-between;
     height: 100%;
 }
-
+#__next {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
 a {
     color: inherit;
     text-decoration: none;
