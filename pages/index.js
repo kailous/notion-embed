@@ -3,9 +3,9 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
       <div className={styles.box}>
-          <header>
+          <header className={styles.header}>
               <div>
-                  <logo>Notion+Lyket</logo>
+                  <logo className={styles.logo}>Notion+Lyket</logo>
                   <h1>现在开始获得反馈！</h1>
               </div>
               <div>
@@ -17,7 +17,7 @@ export default function Home() {
                   <h4>应用域名/like-button/ [button-namespace] / [button-id]</h4>
               </div>
           </header>
-          <main>
+          <main className={styles.main}>
               <div>
                   <h4><a href="https://app.lyket.dev/signup" target="_blank">注册 Lyket</a></h4>
                   <p>以获取您的</p>
@@ -44,7 +44,7 @@ export default function Home() {
                   <p>实时获取最新反馈</p>
               </div>
           </main>
-          <footer>
+          <footer className={styles.footer}>
               <a href="https://github.com/kailous/notion-embed" target="_blank"><img alt="github" src="../public/Github.svg"/></a>
           </footer>
       </div>
