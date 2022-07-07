@@ -10,7 +10,7 @@
 
 首先，[在 Lyket 上注册](https://app.lyket.dev/signup) 以获取您的个人 API 密钥。
 
-然后，您需要分叉此存储库并将其部署到无服务器平台，例如 Vercel 或 Netlify。
+然后，您需要复刻此存储库并将其部署到无服务器平台，例如 Vercel 或 Netlify。
 
 如果您想在部署之前进行一些试验，请克隆它并将 NEXT_PUBLIC_LYKET_API_KEY 中的个人 API 密钥添加到 .env.local
 
