@@ -45,7 +45,7 @@ export default function Home() {
               </div>
           </main>
           <footer className={styles.footer}>
-              <a href="https://github.com/kailous/notion-embed" target="_blank"><img alt="github" src="../public/github.svg"/></a>
+              <a className={styles.github} href="https://github.com/kailous/notion-embed" target="_blank">Github</a>
           </footer>
       </div>
     // <div className={styles.container}>
