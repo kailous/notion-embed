@@ -15,7 +15,7 @@
   font-size: 0;
 }
 .logo:after {
-  content: url(/public/logo.svg);
+  content: url("../public/logo.svg");
   width: 560px;
   display: block;
 }
