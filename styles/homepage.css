@@ -1,5 +1,5 @@
 html,
-body,#box {
+body, #box {
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -12,67 +12,85 @@ body,#box {
     flex-wrap: nowrap;
     align-content: space-between;
 }
-logo,line{
-    font-size:0;
+
+logo, line {
+    font-size: 0;
 }
+
 h1 {
-    font-size:42px;
+    font-size: 42px;
 }
+
 h4 {
-    font-size:22px;
+    font-size: 22px;
 }
-*:after {line-height: 100%;}
+
+*:after {
+    line-height: 100%;
+}
+
 main div p {
-    font-size:14px;
-    line-height:120% !important;
+    font-size: 14px;
+    line-height: 120% !important;
 }
+
 header {
     padding: 45px 30px;
-    height:100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
 }
+
 header div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    align-content: flex-start;}
-header div:nth-child(1){
+    align-content: flex-start;
+}
+
+header div:nth-child(1) {
     gap: 20px;
 }
-header div:nth-child(2){
+
+header div:nth-child(2) {
     gap: 30px;
 }
-header h4{
+
+header h4 {
     font-weight: normal;
-    line-height:120%!important;
+    line-height: 120% !important;
 }
-logo:after{
+
+logo:after {
     content: url(../public/logo.svg);
-    width:560px;
+    width: 560px;
     display: block;
 }
-footer img{
-    width:115px;
+
+footer img {
+    width: 115px;
 }
+
 main {
     background-color: #FFF;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    gap:30px;
+    gap: 30px;
     padding: 30px;
     max-height: 500px;
     min-height: 100px;
 }
-h1,h2,h3,h4,p,span {
+
+h1, h2, h3, h4, p, span {
     line-height: 100%;
     margin: 0;
 }
+
 main div {
     display: flex;
     flex-direction: column;
@@ -82,22 +100,27 @@ main div {
     align-content: flex-start;
     gap: 20px;
 }
+
 main h4 {
     display: flex;
     flex-direction: row;
 }
-main a{
+
+main a {
     color: #000;
     text-decoration: none;
 }
+
 main h4:after {
-    content:url(../public/icon.svg);
-    width:12px;
+    content: url(../public/icon.svg);
+    width: 12px;
     margin: -5px 0 0 5px;
 }
-line:after{
+
+line:after {
     content: url(../public/next.svg);
 }
+
 footer {
     display: flex;
     flex-direction: row;
@@ -105,6 +128,7 @@ footer {
     padding: 100px 30px 30px;
     gap: 10px;
 }
-main h4 a:hover,main div:hover > p {
+
+main h4 a:hover, main div:hover > p {
     color: #8F5CFD;
 }
