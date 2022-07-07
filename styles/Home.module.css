@@ -135,11 +135,11 @@
   flex-wrap: nowrap;
   align-content: space-between;
 }
-
-logo {
+.box header div logo {
   font-size: 0;
 }
-line {
+
+.box main line {
   font-size: 0;
 }
 h1 {
