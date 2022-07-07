@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             <line>｜</line>
             <div>
-                <h4><a href="../like-button/namespace/id" target="_blank">在Notion创建按钮</a></h4>
+                <h4><a href="https://www.notion.so" target="_blank">在Notion创建按钮</a></h4>
                 <p>使用已部署的应用地址</p>
                 <p>在 Notion 中创建按钮</p>
             </div>
